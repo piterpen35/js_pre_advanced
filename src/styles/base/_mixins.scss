@@ -1,0 +1,14 @@
+@mixin button($w, $h, $bgcolor, $border-color, $txt-color, $fs, $fw) {
+    width: $w;
+    height: $h;
+    background-color: $bgcolor;
+    border: 2px solid $border-color;
+    color: $txt-color;
+    border-radius: 40px;
+    cursor: pointer;
+
+    font: {
+        size: $fs;
+        weight: $fw;
+    }
+}

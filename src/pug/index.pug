@@ -1,0 +1,120 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='main.min.css')
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(href='https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap' rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css' integrity='sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni' crossorigin='anonymous')
+  title Share Your Holiday Dream
+.container
+  header
+    .inner-width
+      nav
+        span dreamshare
+        #signIn
+          button Log in
+          button Sign up
+      .header-text
+        h1 share your holiday dream
+        p And find the perfect partner to fullfill it
+        button Find your holiday partner
+    .gradient
+    .dark
+  main
+    section.work-explanation
+      h1 How Dreamshare works?
+      .work-steps.content
+        .work-steps__1
+          button STEP 1
+          h2 Sed leo enim, condimentum
+          p
+            | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+        .work-steps__2
+          button STEP 2
+          h2 Morbi velit risus
+          p
+            | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+        .work-steps__3
+          button STEP 3
+          h2 Sed leo enim, condimentum
+          p
+            | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+    section.partners
+      h1 Meet a partner for your best holiday
+      .partners_list.content
+        ul
+          li
+            .img-container
+              img(src='img/bradley.png' alt='')
+            h2 Bradley Hunter
+            p Based in Chicago. I love playing tennis and loud music.
+          li
+            .img-container
+              img(src='img/marie.png' alt='')
+            h2 Marie Bennett
+            p Currently living in Colorado. Lover of art, languages and travelling.
+          li
+            .img-container
+              img(src='img/diana.png' alt='')
+            h2 Diana Wells
+            p
+              | Living in Athens, Greece. I love black and white classics, chillout music and green tea.
+          li
+            .img-container
+              img(src='img/chris.png' alt='')
+            h2 Christopher Pierce
+            p Star Wars fanatic. I have a persistent enthusiasm to create new things.
+        button See other partners
+    section.activities
+      h1 Discover holiday activity ideas
+      .activity-list.content
+        .activity.sport
+          h2 Sports and activitis
+        .activity.health
+          h2 Wellness and Health
+        .activity.extreme-sport
+          h2
+            | Extreme Sports
+            | and Expeditions
+        .activity.games
+          h2 Games
+        .activity.culture.big
+          h2 Culture and Education
+        .activity.relax.big
+          h2 Enjomet and Relaxation
+        .activity.travel
+          h2 Trevelling
+    section.activity-creation
+      h1 Create your holiday activity
+      .holiday-interest
+        h2 Hi! What are your holiday interests?
+        form(name='interests_partner_search')
+          input(type='text' placeholder='Enter your interests')
+          button Search partners
+  footer
+    .separation-unit
+    .footer-info
+      .company
+        h2 dreamshare
+      .company-info
+        h2 Company
+        ul
+          li
+            a(href='#') About
+          li
+            a(href='#') Contact
+          li
+            a(href='#') Press
+          li
+            a(href='#') Blog
+          li
+            a(href='#') Terms and Privacy
+          li
+            a(href='#') Help
+      .parnters
+        h2 Partners
+      .createdBy
+        h2 Designed by
+        img(src='img/logo.png' alt='logo.png')

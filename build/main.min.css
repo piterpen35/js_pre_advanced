@@ -1,0 +1,428 @@
+html {
+    scroll-behavior: smooth; }
+  
+  body {
+    background-color: #fff; }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    z-index: 1;
+    font-weight: normal;
+    font-size: 18px;
+    position: relative; }
+  
+  .container {
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto; }
+  
+  p {
+    font-family: 'Roboto', sans-serif; }
+  
+  header {
+    width: inherit;
+    height: 700px;
+    color: #fff;
+    background: url(img/bg.png) no-repeat center;
+    background-size: cover; }
+    header .inner-width {
+      margin: 0 auto;
+      max-width: 970px; }
+      header .inner-width nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 40px 14px; }
+        header .inner-width nav span {
+          text-transform: uppercase;
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 40px; }
+        header .inner-width nav #signIn button {
+          width: 90px;
+          height: 36px;
+          background-color: transparent;
+          border: 2px solid #fff;
+          color: #fff;
+          border-radius: 40px;
+          cursor: pointer;
+          font-size: 14px;
+          font-weight: 400; }
+        header .inner-width nav #signIn button:first-child {
+          border: none;
+          margin-right: -8px; }
+      header .inner-width .header-text {
+        width: 470px;
+        margin: 103px auto;
+        text-align: center; }
+        header .inner-width .header-text h1 {
+          font-size: 52px;
+          font-weight: 700;
+          text-transform: uppercase; }
+        header .inner-width .header-text p {
+          font-size: 24px;
+          font-weight: 300;
+          line-height: 80px; }
+        header .inner-width .header-text button {
+          width: 225px;
+          height: 40px;
+          background-color: #FF4E50;
+          border: 2px solid #FF4E50;
+          color: #fff;
+          border-radius: 40px;
+          cursor: pointer;
+          font-size: 14px;
+          font-weight: 700;
+          margin-top: 7px; }
+    header .gradient, header .dark {
+      width: inherit;
+      height: inherit;
+      background: linear-gradient(180deg, #FF4E50, #F9D423);
+      opacity: 0.1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 0; }
+    header .dark {
+      background: #000;
+      opacity: 0.2; }
+  
+  main {
+    color: #444444;
+    max-width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+    z-index: 0; }
+    main h1 {
+      text-align: center;
+      font-size: 26px;
+      font-weight: bold; }
+    main section {
+      margin-top: 90px; }
+    main .content {
+      margin-top: 34px; }
+    main .work-explanation .work-steps {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      main .work-explanation .work-steps div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        max-width: 300px;
+        width: 100%;
+        height: 400px;
+        border-radius: 4px;
+        padding: 20px 25px; }
+        main .work-explanation .work-steps div button {
+          width: 70px;
+          height: 20px;
+          background-color: #FF4E50;
+          border: 2px solid #FF4E50;
+          color: #fff;
+          border-radius: 40px;
+          cursor: pointer;
+          font-size: 10px;
+          font-weight: 400;
+          letter-spacing: 2px; }
+        main .work-explanation .work-steps div h2 {
+          color: #fff;
+          margin-top: 20px;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 26px; }
+        main .work-explanation .work-steps div p {
+          color: #e3e3e3;
+          margin-top: 30px;
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 14px; }
+      main .work-explanation .work-steps__1 {
+        background: no-repeat center linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(img/step1.png); }
+      main .work-explanation .work-steps__2 {
+        background: no-repeat center linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(img/step2.png); }
+      main .work-explanation .work-steps__3 {
+        background: no-repeat center linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(img/step3.png); }
+    main .partners .partners_list {
+      margin: 34px auto; }
+      main .partners .partners_list ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+      main .partners .partners_list li {
+        display: flex;
+        flex-direction: column;
+        width: 220px;
+        height: 225px;
+        text-align: center; }
+        main .partners .partners_list li img,
+        main .partners .partners_list li div {
+          display: block;
+          width: 120px;
+          border-radius: 50%;
+          margin: 0 auto; }
+        main .partners .partners_list li div:after {
+          width: 32px;
+          height: 32px;
+          position: absolute;
+          line-height: 35px;
+          font-size: 16px;
+          right: 0;
+          bottom: 0;
+          z-index: 1;
+          border-radius: 50%;
+          box-shadow: 0 0 0 4px #fff; }
+        main .partners .partners_list li h2 {
+          font-size: 14px;
+          font-weight: 700;
+          margin: 19px 0; }
+        main .partners .partners_list li p {
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 14px;
+          margin-top: 9px; }
+      main .partners .partners_list li:last-child {
+        margin: 0; }
+      main .partners .partners_list li:nth-child(1) div:after {
+        content: url(img/svg/note.svg);
+        background-color: #FF4E50; }
+      main .partners .partners_list li:nth-child(2) div:after {
+        content: url(img/svg/paint.svg);
+        background-color: #19D4CA; }
+      main .partners .partners_list li:nth-child(3) div:after {
+        content: url(img/svg/camera.svg);
+        background-color: #FFA710; }
+      main .partners .partners_list li:nth-child(4) div:after {
+        content: url(img/svg/plane.svg);
+        background-color: #667DF3; }
+    main .partners button {
+      width: 180px;
+      height: 40px;
+      background-color: #fff;
+      border: 2px solid #FF4E50;
+      color: #FF4E50;
+      border-radius: 40px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+      display: block;
+      margin: 36px auto 0 auto; }
+    main .activities .activity-list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      main .activities .activity-list .activity {
+        width: 300px;
+        height: 310px;
+        margin-top: 20px;
+        border-radius: 4px; }
+      main .activities .activity-list .activity:nth-child(1),
+      main .activities .activity-list .activity:nth-child(2),
+      main .activities .activity-list .activity:nth-child(3) {
+        margin-top: 0; }
+      main .activities .activity-list .big {
+        height: 310px;
+        width: 620px; }
+      main .activities .activity-list h2 {
+        display: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 22px;
+        font-weight: 700;
+        color: #fff;
+        text-align: center; }
+      main .activities .activity-list .sport {
+        background: no-repeat center linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/sports_and_activitis.png); }
+      main .activities .activity-list .health {
+        background: no-repeat center linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/wellness_and_health.png); }
+      main .activities .activity-list .extreme-sport {
+        background: no-repeat center linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/extreme_sports_and_expeditions.png); }
+      main .activities .activity-list .games {
+        background: no-repeat center linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/games.png); }
+      main .activities .activity-list .culture {
+        background: no-repeat center linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/culture_and_education.png); }
+      main .activities .activity-list .relax {
+        background: no-repeat center linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/enjoyment_and_relaxation.png); }
+      main .activities .activity-list .travel {
+        background: no-repeat center linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/travelling.png); }
+    main .holiday-interest h2 {
+      font-size: 18px;
+      font-weight: 300;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      margin-top: 46px;
+      color: #666666; }
+    main .holiday-interest form {
+      margin: 22px auto 0 auto;
+      width: 482px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      main .holiday-interest form input {
+        border: 1px solid #D4D4D4;
+        border-radius: 3px;
+        width: 300px;
+        height: 40px;
+        padding: 10px;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif; }
+      main .holiday-interest form button {
+        width: 172px;
+        height: 40px;
+        background-color: #FF4E50;
+        border: 2px solid #FF4E50;
+        color: #fff;
+        border-radius: 40px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 700; }
+  
+  footer {
+    margin-top: 100px;
+    max-width: 1440px; }
+    footer .separation-unit {
+      width: 100%;
+      height: 2px;
+      background-color: #FF4E50; }
+    footer .footer-info {
+      display: flex;
+      max-width: 940px;
+      margin: 40px auto;
+      height: 300px;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      footer .footer-info h2 {
+        color: #444444;
+        font-size: 14px;
+        font-weight: 700; }
+      footer .footer-info .company {
+        text-transform: uppercase; }
+        footer .footer-info .company h2 {
+          color: #FF4E50;
+          font-size: 16px;
+          font-weight: 400; }
+      footer .footer-info .company-info ul {
+        margin-top: 10px; }
+      footer .footer-info .company-info a {
+        color: #999999;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 300;
+        font-family: "Roboto", sans-serif;
+        line-height: 26px; }
+    footer .createdBy h2 {
+      font-size: 10px;
+      letter-spacing: 1px;
+      color: #CCCCCC; }
+    footer .createdBy img {
+      margin-top: 8px; }
+  
+  @media screen and (max-width: 960px) {
+    main .work-explanation .work-steps div {
+      max-width: 236px; }
+    main .activities .activity-list .activity {
+      width: 236px; }
+    main .activities .activity-list .big {
+      width: 492px; } }
+  
+  @media screen and (max-width: 900px) {
+    main .partners .partners_list {
+      width: 492px; }
+    footer .footer-info {
+      justify-content: space-around; } }
+  
+  @media screen and (max-width: 768px) {
+    header .inner-width nav {
+      padding: 40px 50px; }
+    main h1 {
+      font-size: 22px;
+      font-weight: bold; }
+    main .partners button {
+      margin: 67px auto 0 auto; } }
+  
+  @media screen and (max-width: 760px) {
+    header {
+      height: 540px; }
+      header .inner-width nav {
+        justify-content: space-around;
+        width: 320px;
+        margin: 0 auto;
+        padding: 20px 50px; }
+        header .inner-width nav #signIn {
+          margin-top: 85px; }
+      header .inner-width .header-text {
+        width: 280px;
+        margin: 2px auto; }
+        header .inner-width .header-text h1 {
+          font-size: 30px; }
+        header .inner-width .header-text p {
+          font-size: 18px;
+          line-height: 30px; }
+        header .inner-width .header-text button {
+          width: 280px;
+          margin-top: 11px; }
+    main .work-explanation .work-steps {
+      justify-content: space-around; }
+      main .work-explanation .work-steps div {
+        max-width: 300px;
+        max-height: 240px;
+        margin: 5px 0; }
+    main .activities .activity-list {
+      justify-content: space-around; }
+      main .activities .activity-list .activity {
+        width: 300px;
+        height: 120px;
+        margin-top: 10px; }
+      main .activities .activity-list .big {
+        width: 300px;
+        height: 120px; }
+      main .activities .activity-list .activity:nth-child(1) {
+        margin-top: 24px; }
+      main .activities .activity-list .activity:nth-child(2),
+      main .activities .activity-list .activity:nth-child(3) {
+        margin-top: 10px; } }
+  
+  @media screen and (max-width: 500px) {
+    main section {
+      margin-top: 34px; }
+    main .content {
+      margin-top: 10px; }
+    main .partners .partners_list {
+      margin: 10px auto;
+      width: 280px; }
+      main .partners .partners_list ul {
+        justify-content: center; }
+      main .partners .partners_list li:last-child {
+        margin-top: 10px; }
+      main .partners .partners_list button {
+        width: 280px;
+        margin: 15px auto 0 auto; }
+    main .holiday-interest h2 {
+      margin-top: 15px; }
+    main .holiday-interest form {
+      width: 300px;
+      justify-content: space-around;
+      margin-top: 11px; }
+      main .holiday-interest form input {
+        width: 280px; }
+      main .holiday-interest form button {
+        width: 280px;
+        margin-top: 11px; }
+    footer {
+      margin-top: 39px; }
+      footer .footer-info {
+        margin: 0;
+        flex-direction: column;
+        text-align: center; }
+        footer .footer-info ul {
+          display: flex;
+          flex-wrap: wrap;
+          width: 200px;
+          margin: 0 auto;
+          justify-content: space-around; } }
